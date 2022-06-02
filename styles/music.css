@@ -1,0 +1,153 @@
+.musicBody {
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    animation: transitionIn 0.4s;
+}
+
+.mheader {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding: 30px;
+}
+
+.menu {
+    display: flex;
+}
+
+.style {
+    padding: 20px 20px 5px 20px;
+    font-size: 30px;
+}
+
+.moods {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    padding: 20px 20px 5px 20px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+
+.happy {
+    border-bottom: 4px solid rgb(255, 237, 75);
+    transition: 0.4s;
+}
+
+.sad {
+    border-bottom: 4px solid rgb(114, 205, 221);
+}
+
+.chill {
+    border-bottom: 4px solid rgb(255, 215, 240);
+}
+
+.angry {
+    border-bottom: 4px solid rgb(216, 23, 23);
+}
+
+.resultContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+    height: 260px;
+    width: 600px;
+    border-radius: 10px;
+    background-color: rgb(192, 192, 192);
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.chords {
+    background-color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.chor {
+    border-bottom: 2px solid black;
+}
+
+.bpm {
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+}
+
+.center {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid black;
+    width: 70px;
+    cursor: pointer;
+
+}
+
+.buttonCont {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    font-size: 18px;
+    border-top: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mExit {
+    color: rgb(158, 37, 37);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    width: 80px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mExit:hover {
+    background-color: rgb(158, 37, 37);
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .mheader {
+        font-size: 40px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+    }
+
+    .resultContainer {
+        width: 350px;
+    }
+}

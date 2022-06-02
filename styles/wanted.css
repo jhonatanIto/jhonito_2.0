@@ -1,0 +1,191 @@
+.wantedBody {
+    display: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+    width: 100vw;
+    height: 100vh;
+    animation: transitionIn 0.4s;
+
+}
+
+.wContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+.wBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px;
+    align-items: center;
+}
+
+.wH1 {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.flex {
+    padding: 20px;
+}
+
+.key {
+    font-size: 18px;
+}
+
+.wInput {
+    font-size: 20px;
+}
+
+.wButton {
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: teal;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.wButton:hover {
+    background-color: rgb(6, 192, 192)
+}
+
+.wCardContainer {
+    margin-left: 30px;
+    position: relative;
+}
+
+.wImgContainer {
+    width: 408px;
+    height: 295px;
+    background-size: cover;
+    position: absolute;
+    top: 151px;
+    left: 46px;
+    filter: rgb(65, 48, 26);
+    filter: grayscale(80%);
+    background-color: rgb(185, 185, 185);
+
+}
+
+
+.naruto {
+    font-family: 'Playfair Display', serif;
+    color: rgb(65, 48, 26, 0.9);
+    font-weight: bold;
+    line-height: 1;
+    font-size: 65px;
+    display: flex;
+    justify-content: center;
+    width: 380px;
+    left: 60px;
+    top: 500px;
+    position: absolute;
+    word-wrap: break-word;
+
+}
+
+.recompensa {
+    width: 350px;
+    left: 100px;
+    top: 605px;
+    position: absolute;
+
+    color: rgb(65, 48, 26);
+    font-size: 30px;
+    font-family: 'Hubballi', cursive;
+}
+
+.wwanted {
+    width: 500px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.wExit {
+    background-color: tomato;
+    padding: 20px;
+    width: 50px;
+    display: flex;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 100px;
+    color: rgb(73, 71, 71);
+    transition: 0.3s;
+}
+
+.wExit:hover {
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    * {
+        border: 0;
+    }
+
+    .wInput {
+        font-size: 25px;
+    }
+
+    .wContainer {
+        flex-direction: column;
+        width: 900px;
+        height: 1400px;
+
+
+    }
+
+    .wBox {
+        margin: 30px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .recompensa {
+        width: 300px;
+        left: 90px;
+        top: 545px;
+    }
+
+    .wwanted {
+        margin-right: 35px;
+        width: 450px;
+
+    }
+
+    .wImgContainer {
+        width: 368px;
+        height: 266px;
+        top: 136px;
+        left: 41px;
+    }
+
+    .naruto {
+        width: 340px;
+        left: 52px;
+        top: 450px;
+
+
+    }
+
+    .wExit {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,182 @@
+.sortContainer {
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    animation: transitionIn 1s;
+
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.sortheader {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    border-bottom: 1px solid black;
+}
+
+.sortbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid tomato;
+    min-width: 500px;
+    min-height: 250px;
+}
+
+.sortinput {
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid rgb(39, 39, 39);
+}
+
+.sortbutt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.sortlistC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    border: 3px solid brown;
+    margin-top: 20px;
+    max-width: 1200px;
+}
+
+.sortlist {
+    height: fit-content;
+    width: fit-content;
+    flex-wrap: wrap;
+
+}
+
+.member {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+.sortname {
+    font-size: 25px;
+    border-bottom: 1px solid black;
+}
+
+.sortx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sortx:hover {
+    color: white;
+}
+
+.partitle {
+    font-size: 30px;
+}
+
+.vencedorCont {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.xVencedor {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.xVencedor:hover {
+    background-color: white;
+
+}
+
+.imgV {
+    width: 50px;
+}
+
+.sortContainerExit {
+    display: flex;
+    width: 60px;
+    border: 1px solid red;
+    padding: 5px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.sortContainerExit:hover {
+    background-color: red;
+    color: white;
+}
+
+@media screen and (max-width: 700px) {
+    .sortbox {
+        min-width: 350px;
+
+    }
+
+    .sortinput {
+        width: 300px;
+    }
+
+    .sortlistC {
+        width: 290px;
+    }
+
+    .sortheader {
+        margin-bottom: 0px;
+    }
+
+    .all {
+        margin-top: 100px;
+        justify-content: flex-start;
+    }
+
+    .vencedorNome {
+        width: 330px;
+        display: flex;
+        justify-content: center;
+    }
+}
